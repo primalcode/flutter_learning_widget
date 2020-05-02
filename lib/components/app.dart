@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'layout1.dart';
-import 'layout2.dart';
+import 'layout001.dart';
+import 'layout002.dart';
+import 'layout003.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -30,8 +31,16 @@ class MyApp extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => Layout2())
                   );
                 }
+            ),
+            RaisedButton(
+                child: Text('Layout 3'),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Layout003())
+                  );
+                }
             )
-
           ],
         ),
       )

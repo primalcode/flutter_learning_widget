@@ -4,7 +4,7 @@ class Layout1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      title: Text('Layout 1'),
+      title: Text('Layout 001'),
     ),
     body: Center(
       child: RaisedButton(
