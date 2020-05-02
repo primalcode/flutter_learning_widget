@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class Layout1 extends StatelessWidget {
+class Layout2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      title: Text('Layout 1'),
+      title: Text('Layout2'),
     ),
     body: Center(
       child: RaisedButton(
         onPressed: () {
           Navigator.pop(context);
         },
-        child: Text('main')
+        child: Text('main'),
       ),
     ),
   );
